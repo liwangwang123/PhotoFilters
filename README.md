@@ -22,5 +22,5 @@ let outputImage = UIImage(cgImage: outputCGImage!)
 
 ![原效果图](https://github.com/liwangwang123/FliterImages/blob/master/flower.png) 
 
-                                    原图
+原图
 
