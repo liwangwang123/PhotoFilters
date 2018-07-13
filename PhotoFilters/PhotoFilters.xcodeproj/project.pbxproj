@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC8CB42220F845E400710866 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CB42020F845E400710866 /* CollectionViewCell.swift */; };
+		BC8CB42320F845E400710866 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8CB42120F845E400710866 /* CollectionViewCell.xib */; };
 		BC963F2C20F732240070761F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC963F2B20F732240070761F /* AppDelegate.swift */; };
 		BC963F2E20F732240070761F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC963F2D20F732240070761F /* ViewController.swift */; };
 		BC963F3120F732240070761F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC963F2F20F732240070761F /* Main.storyboard */; };
 		BC963F3320F732290070761F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC963F3220F732290070761F /* Assets.xcassets */; };
 		BC963F3620F732290070761F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC963F3420F732290070761F /* LaunchScreen.storyboard */; };
-		BC963F3E20F732D50070761F /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = BC963F3D20F732D50070761F /* flower.png */; };
+		BC963F4020F777B40070761F /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = BC963F3F20F777B30070761F /* flower.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC8CB42020F845E400710866 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BC8CB42120F845E400710866 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		BC963F2820F732240070761F /* PhotoFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC963F2B20F732240070761F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC963F2D20F732240070761F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +27,7 @@
 		BC963F3220F732290070761F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC963F3520F732290070761F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC963F3720F732290070761F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC963F3D20F732D50070761F /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		BC963F3F20F777B30070761F /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				BC963F2B20F732240070761F /* AppDelegate.swift */,
 				BC963F2D20F732240070761F /* ViewController.swift */,
-				BC963F3D20F732D50070761F /* flower.png */,
+				BC8CB42020F845E400710866 /* CollectionViewCell.swift */,
+				BC8CB42120F845E400710866 /* CollectionViewCell.xib */,
+				BC963F3F20F777B30070761F /* flower.png */,
 				BC963F2F20F732240070761F /* Main.storyboard */,
 				BC963F3220F732290070761F /* Assets.xcassets */,
 				BC963F3420F732290070761F /* LaunchScreen.storyboard */,
@@ -125,10 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC963F3E20F732D50070761F /* flower.png in Resources */,
+				BC963F4020F777B40070761F /* flower.png in Resources */,
 				BC963F3620F732290070761F /* LaunchScreen.storyboard in Resources */,
 				BC963F3320F732290070761F /* Assets.xcassets in Resources */,
 				BC963F3120F732240070761F /* Main.storyboard in Resources */,
+				BC8CB42320F845E400710866 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			files = (
 				BC963F2E20F732240070761F /* ViewController.swift in Sources */,
 				BC963F2C20F732240070761F /* AppDelegate.swift in Sources */,
+				BC8CB42220F845E400710866 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

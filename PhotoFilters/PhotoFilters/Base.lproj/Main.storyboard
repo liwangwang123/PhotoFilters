@@ -35,22 +35,12 @@
                                     <constraint firstItem="dQh-XO-sLu" firstAttribute="leading" secondItem="qgc-WC-9lF" secondAttribute="leading" id="lfg-bF-pQX"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HIi-RH-62a">
-                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
-                                <color key="backgroundColor" red="0.89796036479999997" green="0.89808970690000001" blue="0.89793211220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="MQT-pk-LnQ"/>
-                                </constraints>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qgc-WC-9lF" secondAttribute="trailing" id="J03-5F-5Lf"/>
-                            <constraint firstItem="HIi-RH-62a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MUI-32-5xW"/>
                             <constraint firstItem="qgc-WC-9lF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gpm-4A-FOm"/>
                             <constraint firstItem="qgc-WC-9lF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lZF-YV-sA8"/>
-                            <constraint firstItem="HIi-RH-62a" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="myk-pl-HWO"/>
-                            <constraint firstItem="HIi-RH-62a" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="qaT-tx-tIP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -62,7 +52,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="filtersScrollView" destination="HIi-RH-62a" id="PY9-2K-N4R"/>
                         <outlet property="originalImage" destination="dQh-XO-sLu" id="XiO-w8-YgY"/>
                     </connections>
                 </viewController>
@@ -90,6 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="flower.png" width="433" height="418"/>
+        <image name="flower.png" width="250" height="241"/>
     </resources>
 </document>
