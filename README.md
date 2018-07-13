@@ -24,3 +24,18 @@ let outputImage = UIImage(cgImage: outputCGImage!)
 
 原图
 
+![CIBoxBlur](https://github.com/liwangwang123/FliterImages/blob/master/CIBoxBlur.png)
+
+CIBoxBlur 效果
+
+![CIBumpDistortion](https://github.com/liwangwang123/FliterImages/blob/master/CIBumpDistortion.png)
+
+CIBumpDistortion 效果
+
+![CIColorMonochrome](https://github.com/liwangwang123/FliterImages/blob/master/CIColorMonochrome.png)
+
+CIColorMonochrome 效果
+
+![CILinearToSRGBToneCurve](https://github.com/liwangwang123/FliterImages/blob/master/CILinearToSRGBToneCurve.png)
+
+CILinearToSRGBToneCurve 效果
